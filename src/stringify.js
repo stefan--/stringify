@@ -50,7 +50,7 @@ var NODE_REQUIRE_OPTIONS = {};
  * @returns {string}
  */
 function stringify (content) {
-  return JSON.stringify(content);
+  return content;
 }
 
 /**
