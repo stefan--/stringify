@@ -50,7 +50,7 @@ var NODE_REQUIRE_OPTIONS = {};
  * @returns {string}
  */
 function stringify (content) {
-  return 'module.exports = ' + JSON.stringify(content) + ';\n';
+  return JSON.stringify(content);
 }
 
 /**
